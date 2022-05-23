@@ -1,0 +1,119 @@
+
+.container{
+    margin: 10px;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+img{
+    width: 400px;
+    height: 350px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(98, 109, 109);
+    color: white;
+  }
+
+  tr{
+      color: white;
+      font-size:25px;
+  }
+
+  .cart{
+
+    margin-left: 50px;
+    text-align: center;
+    display: inline;
+  }
+
+
+
+  /* cart page  */
+
+  .products-container{
+      max-width: 650px;
+      justify-content: space-around;
+      margin: 0 auto;
+      margin-top: 50px;
+      color: rgb(26, 19, 245);
+      font: 55px;
+  }
+
+  .products-container{
+    max-width: 100%;
+    color: blue;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+  }
+
+  .product-header{
+      width:100%;
+    max-width: 650px;
+    display:flex;
+    justify-content:flex-start;
+    border-bottom:4px solid lightgrey;
+    margin:0 auto;
+  }
+
+  .product-title{
+      width:45%;
+
+  }
+
+  .price{
+      width:15%;
+      display:flex;
+      align-items: center;
+  }
+
+  .quantity{
+      width:15%;
+
+      display:flex;
+      align-items: center;
+
+  }
+  .total{
+      width:10%;
+
+      display:flex;
+      align-items: center;
+  }
+  .prodcut{
+      width:45%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 4px solid lightgrey;
+  }
+
+  .prodcut img{
+    width: 75px;
+
+  }
+
+  .basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .basketTotalTile{
+      width: 40%;
+  }
+
+
+  .basketTotal{
+      width: 10%;
+  }
+
+
